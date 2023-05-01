@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(100, 12, 12);
+    padding: 10px;
+}
+h1{
+    color: white;
+    margin-left: 22px;
+}
+.container li{
+    display: inline;
+    margin-right: 22px;
+}
+.container li a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    height: 250px;
+    margin-bottom: 8px;
+}
+.conatiner-brasil .brasil,
+.container-fut .fut-europeu,
+.container-market .market,
+.conatiner-competitions .competitions{
+    margin: 30px 55px 55px 55px;
+    margin-bottom: 40px;
+}
+.brasileiro,
+.europa,
+.mercado,
+.campeonatos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brasileiro a,
+.europa a,
+.mercado a,
+.campeonatos a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.brasileiro h3,
+.europa h3,
+.mercado h3,
+.campeonatos h3{
+    color: black;
+}
+article h3{
+    width: 348px;
+}
+.brasil h2,
+.fut-europeu h2,
+.market h2,
+.competitions h2{
+    margin-bottom: 18px;
+}
+.conatiner-brasil,
+.conatiner-competitions,
+.container-fut,
+.container-market{
+    padding: 1px;
+}
+.conatiner-brasil{
+    background-color: rgb(200, 200, 200);
+}
+.container-fut{
+    background-color: rgb(225, 225, 225);
+}
+.container-market{
+    background-color: rgb(200, 200, 200);
+}
+.conatiner-competitions{
+    background-color: rgb(225, 225, 225);
+}
+button{
+    border-radius: 4px;
+    padding: 4px;
+    background-color:  rgb(100, 12, 12);
+    margin-top: 8px;
+    border: black 1px solid;
+}
+footer{
+    background-color:  rgb(100, 12, 12);
+    color: white;
+    padding: 10px;
+}
+footer p{
+    margin-left: 22px;
+}
