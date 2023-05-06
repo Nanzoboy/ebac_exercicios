@@ -74,23 +74,34 @@ article h3{
     padding: 1px;
 }
 .conatiner-brasil{
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(204, 204, 159);
 }
 .container-fut{
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(182, 182, 233);
 }
 .container-market{
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(188, 159, 159);
 }
 .conatiner-competitions{
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(160, 183, 159);
 }
 button{
     border-radius: 4px;
-    padding: 4px;
-    background-color:  rgb(100, 12, 12);
+    padding: 4px 10px;
     margin-top: 8px;
     border: black 1px solid;
+}
+.brasileiro button{
+    background-color: rgb(49, 108, 49);
+}
+.europa button{
+    background-color: rgb(44, 44, 95);
+}
+.mercado button{
+    background-color:  rgb(100, 12, 12);
+}
+.campeonatos button{
+    background-color: rgb(99, 99, 70)
 }
 footer{
     background-color:  rgb(100, 12, 12);
